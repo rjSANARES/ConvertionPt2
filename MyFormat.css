@@ -1,0 +1,32 @@
+button{
+    border-radius: 5px;
+    background-color:blue;
+    padding:5px;
+    color: yellow;
+  }
+  body{
+    background-color: skyblue;
+  }
+  label{
+    padding:5px;
+    border-radius: 5px;
+    background-color:blue;
+     color:yellow;
+  }
+  p{
+    background-color:gray;
+    border-radius: 5px;
+    padding:5px;
+     font-size: 20;
+     color:yellow;
+  }
+  input{
+    padding:5px;
+    background-color: yellowgreen;
+    border-radius: 5px;
+     color: red;
+  }
+   h1{
+      color: green;
+   }
+

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Centimeters to Inches</title>
+  <link rel="stylesheet" href="myFormat.css">
+</head>
+<body>
+  <h1>Centimeters to Inches</h1>
+  <form>
+    <label for="cm">Centimeters:</label>
+    <input type="number" id="cm" name="cm"><br><br>
+    <button type="button" onclick="convert()">Convert</button>
+    <p id="result"></p>
+  </form>
+
+  <script src="Result Cm to Inches.js"></script>
+  <script>
+    function convert() {
+      let cm = document.getElementById("cm").value;
+      let inches = cmToInches(cm);
+      document.getElementById("result").innerHTML = `${cm} centimeters is approximately equal to ${inches} inches`;
+    }
+  </script>
+</body>
+</html>
